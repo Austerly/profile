@@ -1,0 +1,93 @@
+body {
+background-color: #CaCaCa;
+margin-left: 5%;
+margin-right: 5%;
+}
+.header {
+background-color: #BABABA;
+min-width: 80%;
+min-height: 65px;
+z-index: 3;
+margin-left: 10%;
+margin-right: 10%;
+/*border-left:.1em solid #4d4d4d;
+border-right:.1em solid #4d4d4d;*/
+border-bottom-right-radius: 20%;
+/*border-top-right-radius: 20%;*/
+/*border-radius: 20%;*/
+}
+#name {
+position: fixed;
+z-index: 4;
+padding-left: 2%;
+}h1 {
+display: inline-block;
+color: #4d4d4d;
+}
+#image {
+margin-left: 10%;
+margin-right: 10%;
+float: left;
+/*border-left:.1em solid #4d4d4d;
+border-right:.1em solid #4d4d4d;*/
+background-color: #4d4d4d;
+border-top-right-radius: 5%;
+border-top: .2em solid white;
+color: white;
+border-bottom-right-radius: 5%;
+}
+#image > img {
+z-index: 2;
+max-width: 49%;
+border-radius: 3%;
+border-top-right-radius: 70%;
+border-bottom-left-radius: 0%;
+border-top-left-radius: 0%;
+}
+#about {
+max-width: 46%;
+border-radius: 5%;
+float: right;
+}
+h4 {
+color: #BABABA;
+}
+p {
+line-height: 1.5;
+padding: auto 5%;
+width: 95%;
+font-size: 1em;
+}
+#education {
+margin-left: -3%;
+padding-right: 3%;
+}
+#hEd{
+margin-left: -6%;
+}
+#interests {
+float: left;
+max-width: 50%;
+padding-left: 2%;
+}
+ul {
+line-height: 1.5;
+}
+
+#bottom {
+margin: auto 10% auto 10%;
+background-color: #BABABA;
+float: right;
+border-top-right-radius: 50%;
+}
+#social {
+margin: auto 20% auto auto;
+}
+a > img {
+max-width: 10%;
+text-decoration: none;
+}
+a {
+text-decoration: none;
+padding-right: 19%;
+}
