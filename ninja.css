@@ -1,0 +1,57 @@
+body {
+background-color: gray;
+}
+#ninjaPict {
+max-width: 80%;
+position: absolute;
+top: 1%;
+left:50%;
+margin-top: 26%;
+}
+div {
+}
+#school > img {
+width: 60%;
+float: left;
+z-index: 1;
+border-radius: 35%;
+margin-left: 3%;
+}
+#ninjaPict > img {
+border-radius: 50%;
+width: 70%;
+z-index: 3;
+}
+#pirates > img {
+width:35%;
+margin-left: 2%;
+margin-top: 8%;
+border-radius: 50%;
+}
+#pirates {
+}
+#pictHome {
+width:100%;
+height:80%;
+display:block;
+background-color: #554433;
+border-bottom-right-radius: 20%;
+border-bottom-left-radius: 20%;
+}
+#title {
+display:block;
+margin-right: 5%;
+margin-left: 5%;
+background-color: black;
+color: green;
+/*border-radius: 65%;*/
+border-top-left-radius: 65%;
+border-top-right-radius: 65%;
+text-align: center;
+height: 15%;
+padding-top: 2%;
+}
+a {
+text-decoration: none;
+color: green;
+}
