@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var looper = true;
 
 while (looper === true) {
@@ -35,3 +36,6 @@ looper = confirm("Would you like to play again?");
 
 }
 }
+
+
+});
