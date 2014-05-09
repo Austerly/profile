@@ -88,7 +88,7 @@ padding: auto 5%;
 width: 95%;
 font-size: 1em;
 text-indent: 3em;
-margin: 2%;
+margin: 2% auto;
 }
 .rightLists {
 margin-left: -9%;
@@ -108,13 +108,14 @@ float: right;
 }
 #quote {
 text-align: center;
-padding-bottom: 3%;
 font-family: 'Quintessential', cursive;
 font-size: 1.2em;
 line-height: 1.5;
-width:100%;
-margin: auto;
+width:80%;
+margin: 2% 10%;
 display: inline-block;
+border-top: 1px solid white;
+
 }
 ul {
 line-height: 2;
@@ -187,7 +188,7 @@ background-color:green;
 color:blue;
 }
 .indent {
-text-indent: 3em;
+text-indent: 1em;
 display: inline-block;
 }
 #inline {
