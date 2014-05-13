@@ -135,7 +135,6 @@ margin: auto 20% auto auto;
 }
 a > img {
 max-width: 10%;
-text-decoration: none;
  -webkit-box-shadow: 0 10px 8px #4d4d4d;
  -moz-box-shadow: 0 10px 8px #4d4d4d;
  box-shadow: 0 10px 8px #4d4d4d;
@@ -150,8 +149,13 @@ border-radius: 100%;
 }
 a {
 text-decoration: none;
-padding-right: 19%;
-color: inherit;
+color: gray;
+}
+p > a {
+color: gray;
+}
+p > a:hover {
+color: black;
 }
 .buttons {
 float:right;
@@ -193,5 +197,13 @@ display: inline-block;
 }
 #inline {
 display: inline;
-
 }
+.icon {
+padding-right: 16%;
+}
+/*.education {
+display: none;
+}
+.skills {
+display: none;
+}*/

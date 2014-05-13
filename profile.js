@@ -1,26 +1,25 @@
-// $(document).ready(function(){
-// 	$('#first').mouseenter(function(){
-// 		$(this).css('background-color', "#4d4d4d");
-// 		$('#first > a').css('color', "white");
-// 	});
-// 	$('#second').mouseenter(function(){
-// 		$(this).css('background-color', "#4d4d4d");
-// 		$('#second > a').css('color', 'white');
-// 	});
-// $('#third').mouseenter(function(){
-// 		$(this).css('background-color', "#4d4d4d");
-// 		$('#third > a').css("color", "white");
-// 	});
-// $('a > img').mouseenter(function(){
-// 		$(this).css({ boxShadow: '1px 3px 60px #4d4d4d' });
-// 	});
+$(document).ready(function(){
+	//hide all divs that aren't for the about page
+	$('.education').hide();
+	$('.skills').hide();
 
-// 	$('.highlighted').mouseleave(function(){
-// 		$(this).css('background-color', "#BABABA");
-// 		$('h3 > a').css('color', '#4d4d4d');
-// 	});
-// 	$('a > img').mouseleave(function(){
-// 		$(this).css({boxShadow: '0 10px 8px #4d4d4d'});
-// 	});
+	//If the education button is clicked, hide all divs and show '.education';
+	$('.educationButton').click(function(){
+		$('.abouter').hide();
+		$('.skills').hide();
+		$('.education').show();
+	});
+	//If the skills button is clicked, hide current div and show '.skills';
+	$('.skillsButton').click(function(){
+		$('.abouter').hide();
+		$('.education').hide();
+		$('.skills').show();
+	});
+	//If the about button is clicked, hide current div and show '.about';
+	$('.aboutButton').click(function(){
+		$('.education').hide();
+		$('.skills').hide();
+		$('.abouter').show();
+	});
 
-//     });
+});

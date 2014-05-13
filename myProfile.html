@@ -1,11 +1,15 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
+<!-- Website Created by Austin Hesterly -->
 	<link rel="stylesheet" href="profileStyle.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Quintessential|Allura|Arapey|Playfair+Display+SC|Courgette' rel='stylesheet' type='text/css'>
 	<title>Austin Hesterly</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type='text/javascript' src='profile.js'></script>
 </head>
+
 <body>
 	<div class="header">
 			<div>
@@ -13,19 +17,19 @@
 					<span class="underline">Austin Hesterl</span>y
 				</h1>
 			</div>
-					<a class='highlighted buttons rightButton' href="https://googledrive.com/host/0B4jN70QN4oiMSW5YbVYweC0wWUE/skills.html"> 
+					<a class='highlighted buttons rightButton skillsButton'> 
 						<h3>
 							Interests/Skills
 						</h3>
 					</a>
 				
-					<a class='highlighted buttons' href="https://googledrive.com/host/0B4jN70QN4oiMSW5YbVYweC0wWUE/education.html">
+					<a class='highlighted buttons educationButton'>
 						<h3>
 							Education
 						</h3>
 					</a>
 
-					<a class='highlighted buttons' href="https://googledrive.com/host/0B4jN70QN4oiMSW5YbVYweC0wWUE/about.html">
+					<a class='highlighted buttons aboutButton'>
 						<h3>
 							About
 						</h3>
@@ -34,86 +38,168 @@
 	<div id="image">
 		<img src="https://lh5.googleusercontent.com/-sWQ9beQ-UQ8/UyDc8fC99oI/AAAAAAAAAFE/y_9fvTZxSQc/s628-no/IMG_5822_br+%25284%2529.jpg"/>
 
-		<div id="about">
+		<div id="about inline" class="abouter">
 			<h4> About Austin:
 			</h4>
-			<p> Born and raised in the Salt Lake Valley, there are few places that he is quite as home at than Northern Utah.  He also has an appreciation for the beautiful weather of Southern California, having volunteered for two years as a missionary for his church in Long Beach, California and surrounding areas.  While working as a missionary, Austin learned Spanish, and developed a love for Latin language and culture. Austin has attended school at Brigham Young University - Idaho, where he will be earning his Associate's Degree in July 2014. He will be pursuing a B.S. in Computer Science at the University of Utah beginning Fall 2014. He is passionate about web design and programming, and computers in general, and is an avid follower of current events and politics. Always a team player, Austin enjoys helping those around him succeed in their endeavors, along with finding success in his own pursuits. 
+			<p> 
+				Born and raised in the Salt Lake Valley, there are few places that Austin would rather be than Northern Utah. He also has an appreciation for the beautiful weather of Southern California, serving there for two years as a missionary in the greater Long Beach, California area. While working as a missionary, Austin learned Spanish, and developed a love for Latin language and culture, including food.  There are few things he enjoys more than a good taco.
 			</p>
+			<p>
+				Austin has attended school at Brigham Young University - Idaho.  He had been pursing a Bachelor’s in Political Science when he discovered his love for coding.  He will be earning his Associate's Degree from BYU - Idaho in July 2014, after which he will pursue a B.S. in Computer Science at the University of Utah beginning Fall 2014. Currently, he is attending <a href="https://devmounta.in">Dev Mountain,</a> a web development coding camp based out of Provo and Salt Lake City, Utah. He is passionate about web design and programming, technology in general, and is an avid follower of current events and politics. Though he has a wide variety of interests and hobbies, his favorite activity is spending time with his beautiful wife and daughter.  The Hesterly Family is excited to welcome another baby girl into their family in September of this year.
+			</p>
+		</div>
+		<div id="interests" class="education">
 			<ul class="rightLists">
 				<h4 id="rightHeaders">Education:
 				</h4>
-				<li>DevMountain: Spring 2014
-				</li>
-				<li>University of Utah: Fall 2014 -
-				</li>
-				<li>Brigham Young University - Idaho: Fall 2008 - Summer 2014
+				<li>DevMountain: 
 					<ul>
-						<li> Served as Missionary for the Church of Jesus Christ of Latter Day Saints: 2009 - 2011
+						<li class="indent">
+							 - Spring 2014 Cohort
 						</li>
 					</ul>
 				</li>
-				<li>Lone Peak High School: 2005 - 2008
+				<li>University of Utah: 
+					<ul>
+						<li class="indent">
+							 - Fall 2014 - 2016
+						</li>
+					</ul>
+				</li>
+				<li>BYU - Idaho:
+					<ul>
+						<li class="indent">
+						  - Fall 2008 - Summer 2014
+						</li>
+					</ul>
+					</li>
+						<li> Missionary for the Church of Jesus Christ of Latter Day Saints: 
+							<ul>
+								<li class="indent">
+									 - 2009 - 2011
+								</li>
+							</ul>
+						</li>
+				<li>Lone Peak High School: 
+					<ul>
+						<li class="indent">
+							 - 2005 - 2008
+						</li>
+					</ul>
 				</li>
 			</ul>
 			<ul class="rightLists">
 				<h4 id="rightHeaders">Recent Projects:
 				</h4>
-				<li id="project"><a href="https://googledrive.com/host/0B4jN70QN4oiMSW5YbVYweC0wWUE/ninja.html">**Ninja Attack!**
+				<li>
+					The Shark Tank:
 					</a>
 					<ul>
-						<li>A ninja choose your own adventure script
+						<li class="project indent">
+							<a href="https://googledrive.com/host/0B4jN70QN4oiMUVlXazlGeXlYUk0/main.html">
+								 - A Brazilian Jiu Jitsu Video Library (Still in Production)
+							</a>
 						</li>
 					</ul>
 				</li>
-
+				<li>
+					Wedding Invitations:
+				</a>
+				<ul>
+					<li class="project indent">
+						<a href="imgs/inviteBeachWalk.1.jpg">
+							Image 1
+						</a>
+						</li>
+						<li class="project indent">
+							<a href="imgs/inviteKissyBeach.1.jpg">
+								Image 2
+							</a>
+						</li>
+						<li class="project indent">
+							<a href="imgs/inviteKissyBeach.2.jpg">
+								Image 3
+							</a>
+						</li>
+				</ul>
+			</ul>
 		</div>
-					<div id="interests">
-				<h4>Interests & Skills:
+			<div id="quote" class="education">
+				<p> "It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat." 
+- Theodore Roosevelt
+				</p>
+			</div>
+					<div id="interests" class="skills">
+				<h4>Skills:
 				</h4>
 				<ul>
 					<li>Web Design, including knowledge of:
 					
 						<ul>
-							<li>HTML
+							<li>- HTML
 							</li>
-							<li>CSS
+							<li>- CSS
 							</li>
-							<li>java.script
+							<li>- Javascript
 							</li>
-							<li>Git
+							<li>- Git
 							</li>
-							<li>jQuery
-							</li>
-						</ul>
-					<li>Enjoying time with family:
-						<ul>
-							<li>Austin has a beautiful wife and daughter
-							</li>
-							<li>Another baby due in September
+							<li>- jQuery
 							</li>
 						</ul>
+				</li>
+			</ul>
+			<h4>
+				Interests:
+			</h4>
+			<ul>
+				<li>
+					<ul>
+
+					<li>
+						- Spending Time with the Family
 					</li>
-					<li>Brazilian Jiu Jitsu
-						<ul>
-							<li>
-								Has been studying (with varying degrees of intensity) since April 2012
-							</li>
-						</ul>
+					<li> 
+						- Brazilian Jiu Jitsu and MMA Enthusiast
 					</li>
+					<li>
+						- Reading
 					</li>
+					<li>
+						- Politics and Current Events
+					</li>
+					<li>
+						- Technology
+					</li>
+					<li>
+						- Hanging Out and Having a Good Time
+					</li>
+				</li>
+			</ul>
 				</ul>
+			</div>
+
+			<div id="quote" class="skills">
+				<p> "If you're going through hell, keep going." -
+Winston Churchill 
+				</p>
+			</div>
+						<div id="quote" class="abouter">
+				<p> "Never, never, never give up." - 
+Winston Churchill
+				</p>
 			</div>
 
 	</div>
 	<div id="bottom">
 		<div id="social">
-				<a href="https://www.facebook.com/austin.hesterly"><img src="http://a5.mzstatic.com/us/r30/Purple/v4/f7/25/73/f725731b-6ddf-c2a2-32a6-3029c3e7225a/mzl.uyyqawdj.png"/>
+				<a class="icon" href="https://www.facebook.com/austin.hesterly"><img src="http://a5.mzstatic.com/us/r30/Purple/v4/f7/25/73/f725731b-6ddf-c2a2-32a6-3029c3e7225a/mzl.uyyqawdj.png"/>
 				</a>
-				<a href="http://www.linkedin.com/pub/austin-hesterly/41/35b/40b"><img src="http://dimitrihalleycenter.com/wp-content/uploads/2013/09/linkedin-icon-1024x1024.png"/>
+				<a class="icon" href="http://www.linkedin.com/pub/austin-hesterly/41/35b/40b"><img src="http://dimitrihalleycenter.com/wp-content/uploads/2013/09/linkedin-icon-1024x1024.png"/>
 				</a>
-				<a href="https://twitter.com/Austerly"><img src="http://png-5.findicons.com/files/icons/816/icons_web_2_0/256/twitter.png"/>
+				<a class="icon" href="https://twitter.com/Austerly"><img src="http://png-5.findicons.com/files/icons/816/icons_web_2_0/256/twitter.png"/>
 				</a>
-				<a href="https://github.com/Austerly"><img src="http://png-2.findicons.com/files/icons/2779/simple_icons/1024/github.png"/>
+				<a class="icon" href="https://github.com/Austerly"><img src="http://png-2.findicons.com/files/icons/2779/simple_icons/1024/github.png"/>
 				</a> 
 		</div>
 	</div>
